@@ -49,11 +49,13 @@ SQL: offline data charting
 Python : data analysis
 
 ###3 Data Analyses
+![Dashboard](PD_Clinical_Trial/Dashboard.jpg?raw=true "Dashboard")
 We created a micro mini database ( in Microsoft’s SQL Server ) to store, analyse and
 build the dashboard. We built the dashboard using Power bi business intelligence tool. We have
 attached this dashboard screen capture as separate jpeg file. Date, tapping details, steps, patient
 profile would describe the patient activity details. And unavailable days shows the patient
 screening. Currently we are displaying data for 2 persons(Sunny and Praveen).
+
 a. Walking
 Treadmill training for the treatment of gait disturbances in people with Parkinson’s
 disease: a minireview
@@ -63,12 +65,12 @@ derived from this literature .Please refer to steps count and step code descript
 dashboard.Plus Microsoft band’s health dashboard gives a comparative study for various
 measures ( like steps, sleeping pattern etc ) against other Microsoft band users We have used that
 to validate our steps dimension.
+
 b. Finger Tap
 Based on finger tapping movements of PD research, the rate of recorded occlusions of control
 group is 16.1%, the rate of early stage PD patients is 5.9%, and 3.8% for severe PD patients. [5]
 The tapping test we used on mPower gives us the data of tapping times in 20 seconds. Using the
-proportion in the research to fit within the UPDRSscale,
-we classify the tappin data into five
+proportion in the research to fit within the UPDRSscale, we classify the tappin data into five
 groups:
 Tapping result UPDRS Scale Description
 >100 0 Normal
@@ -83,6 +85,7 @@ Tapping result UPDRS Scale Description
 As shown in the figure above, the result of tapping test is: both subjects performed
 normal . Meaning, according to the tapping test, both subjects have showed a really low
 possibility to have PD symptom.
+
 c. SelfReport
 We used the questionnaire in mPower for selfreport.
 In this questionnaire, we put eight
@@ -95,9 +98,7 @@ Occasionally 1
 Sometimes 2
 Often 3
 Always 4
-So the result for Sunny would be 8, and for
-Praveen would be 17, which means that
-both subjects are having mild mental
+So the result for Sunny would be 8, and for Praveen would be 17, which means that both subjects are having mild mental
 depression based on UPDRS description.
 
 ###4 Summary
@@ -119,21 +120,19 @@ accurate baseline in UPDRS ADL, and the patients that has less data points would
 during the screening.
 
 ###Reference
-[1] Parkinson’s Disease Health Center , WebMD,
-http://www.webmd.com/parkinsonsdisease/guide/parkinsonstreatmentcare
-[2] Pioglitazone in Early Parkinson’s Disease , ClinicalTrials.gov,
-https://clinicaltrials.gov/ct2/show/results/NCT01280123?term=parkinson&rank=10&sect=X01256#all
+[1] Parkinson’s Disease Health Center , WebMD, http://www.webmd.com/parkinsonsdisease/guide/parkinsonstreatmentcare
+
+[2] Pioglitazone in Early Parkinson’s Disease , ClinicalTrials.gov, https://clinicaltrials.gov/ct2/show/results/NCT01280123?term=parkinson&rank=10&sect=X01256#all
+
 [3] UPDRS Document. http://img.medscape.com/fullsize/701/816/58977_UPDRS.pdf
-[4] Ghristopher G. Geotz, … , Movement Disorder SocietySponsored Revision of the Unified
-Parkinson’s Disease Rating Scale (MDSUPDRS):
-Scale Presentation and Clinimetric Testing
-Results , Movement Disorders, Vol. 23, No. 15, 2008, pp. 21292170
-[5] C. Lainscsek, P. Rowat, …, Finger tapping movements of Parkinson’s disease patients
-automatically rated using nonlinear delay differential equations , Chaos. 2012 Mar; 22(1):
-01311901311913
+
+[4] Ghristopher G. Geotz, … , Movement Disorder SocietySponsored Revision of the Unified Parkinson’s Disease Rating Scale (MDSUPDRS): Scale Presentation and Clinimetric Testing Results , Movement Disorders, Vol. 23, No. 15, 2008, pp. 21292170
+
+[5] C. Lainscsek, P. Rowat, …, Finger tapping movements of Parkinson’s disease patients automatically rated using nonlinear delay differential equations , Chaos. 2012 Mar; 22(1): 01311901311913
 
 ###Related Documents and Code
-Selfreport
-Doc:
+View Full Report Doc:
 https://docs.google.com/document/d/17v4JUyO-TK1bUFio6Vfw_lYZtjWPXuo3nxFYKgUFvL8/edit?usp=sharing
-Code on Github: https://github.com/sunnyliyanbo1357/PD_Clinical_Trial.git
+
+Code on Github: 
+https://github.com/sunnyliyanbo1357/PD_Clinical_Trial.git
